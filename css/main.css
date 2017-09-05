@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  background-color: #8b9dc3;
+  background-size: cover;
+  background-image: url("../images/background.png");
+}
+
+.barcode {
+  font-size: 8rem;
+  font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+.subheader {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+  margin-top: 6vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #6b6b6b;
+  border-width: thick;
+  background-color: #424242;
+  color: #F7F7F7;
+  filter: drop-shadow(10px 10px 10px black);
+}
+
+.emoji {
+  /*margin-top: 10px;*/
+  width: 5vw;
+  height: auto;
+}
+
+.button-group {
+  /*display: flex;*/
+}
