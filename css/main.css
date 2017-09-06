@@ -6,16 +6,16 @@ body {
 }
 
 .barcode {
-  font-size: 8rem;
+  font-size: 8vw;
   font-family: 'Libre Barcode 39 Text', cursive;
 }
 
 .string {
-  font-family: 'Lobster', cursive;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .container {
-  margin-top: 6vh;
+  margin-top: 2vh;
   margin-left: 20vw;
   margin-right: 20vw;
   padding-top: 10vh;

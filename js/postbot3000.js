@@ -21,3 +21,34 @@ window.fbAsyncInit = function() {
  function getRandomInt(min, max) {
      return Math.floor(Math.random() * (max - min + 1)) + min
  }
+
+$(function(){
+  //Generate Sentence Parts and Store Them
+  var pronoun = getRandomInt(0,pronouns.length);
+  pronoun = pronouns[pronoun];
+  var adjective = getRandomInt(0,adjectives.length);
+  adjective = adjectives[adjective];
+  var verb = getRandomInt(0,verbs.length);
+  verb = verbs[verb];
+  //Assemble String
+  var string = String(pronoun) + " " + String(adjective) + " " + String(verb);
+  console.log(string);
+  //Print String
+  $('.string').html(string);
+
+  $('#generateButton').on('click', function(){
+    //Generate Sentence Parts and Store Them
+    var pronoun = getRandomInt(0,pronouns.length);
+    pronoun = pronouns[pronoun];
+    var adjective = getRandomInt(0,adjectives.length);
+    adjective = adjectives[adjective];
+    var verb = getRandomInt(0,verbs.length);
+    verb = verbs[verb];
+    //Assemble String
+    var string = String(pronoun) + " " + String(adjective) + " " + String(verb);
+    console.log(string);
+    //Print String
+    $('.string').html(string);
+  });
+
+})
