@@ -5,9 +5,25 @@
   <title>PostBot3000</title>
   <link rel="stylesheet" type="text/css" href="css\main.css">
   <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu|Libre+Barcode+39+Text|Lobster|Open+Sans+Condensed:300|Pacifico|Maven+Pro" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js\speechlibrary.js"></script>
+  <script src="js\postbot3000.js"></script>
+
 </head>
 
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=110446862999562";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+<div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+
   <div class="container">
     <p class="barcode">PostBot3000</p>
     <img class="emoji" src="images\thinkemoji.png">
@@ -18,8 +34,7 @@
     </div>
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js\speechlibrary.js"></script>
-  <script src="js\postbot3000.js"></script>
+
+
 </body>
 </html>
